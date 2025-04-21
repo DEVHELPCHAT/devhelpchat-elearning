@@ -1,0 +1,11 @@
+services:
+  frontend:
+      build: ./frontend
+          ports:
+                - "3000:3000"
+                    env_file: .env # 🚨 ADD YOUR FRONTEND ENV VARS HERE
+
+                      backend:
+                          environment:
+                                - DB_HOST=postgres # 🚨 REPLACE WITH ACTUAL CREDENTIALS
+                                      - DB_PASSWORD=your_strong_password
