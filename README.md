@@ -35,8 +35,8 @@
      php artisan migrate    
 
 
-** 🌱Contribution Guide
-We welcome contributions! Here’s how**:
+## 🌱Contribution Guide
+We welcome contributions! Here’s how:
 
 Report Bugs:
 
@@ -54,7 +54,8 @@ Follow our Code Style Guide.
 
 *All contributors are expected to adhere to our [Code of Conduct]
 
-**📜 License**:
+### 📜 License:
+
 MIT License © 2024 DevHelpChat.
 Made for learners, by learners.
 
