@@ -1,0 +1,16 @@
+# General
+.DS_Store
+.env
+*.log
+*.swp
+.idea/
+.vscode/
+
+# Local development
+tmp/
+temp/
+
+# Submodule ignores (optional)
+frontend/node_modules/
+backend/vendor/
+ai-service/venv/

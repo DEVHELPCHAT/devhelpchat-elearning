@@ -1,11 +1,17 @@
-services:
-  frontend:
-      build: ./frontend
-          ports:
-                - "3000:3000"
-                    env_file: .env # 🚨 ADD YOUR FRONTEND ENV VARS HERE
+version: '3.8'  
 
-                      backend:
-                          environment:
-                                - DB_HOST=postgres # 🚨 REPLACE WITH ACTUAL CREDENTIALS
-                                      - DB_PASSWORD=your_strong_password
+services:  
+  frontend:  
+      build: ./frontend  
+          ports: ["3000:3000"]  
+
+            backend:  
+                build: ./backend  
+                    ports: ["8000:8000"]  
+                        depends_on:  
+                              - postgres  
+
+                                postgres:  
+                                    image: postgres:14  
+                                        environment:  
+                                              POSTGRES_PASSWORD: devhelpchatoncetoldastory@&6$3&3

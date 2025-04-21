@@ -14,29 +14,29 @@
 ## 🛠 Setup (Local Development)
 1. **Clone repo**:
    ```bash
-      git clone https://github.com/devhelpchat/devhelpchat-elearning.git```
+      git clone https://github.com/devhelpchat/devhelpchat-elearning.git
 
 2. **Frontend**:
 	```bash
     cd frontend  
     npm install  
-    npm run dev  # http://localhost:3000```  
+    npm run dev  # http://localhost:3000  
 
 3. **Backend**:
 	```bash
     cd ../backend  
     composer install  
     cp .env.example .env  # Update DB credentials  
-    php artisan serve     # http://localhost:8000 ``` 
+    php artisan serve     # http://localhost:8000  
 
 4. **Database**:
 	```bash
  	 docker-compose up -d postgres redis  
-     php artisan migrate```    
+     php artisan migrate    
 
 
-🌱 Contribution Guide
-We welcome contributions! Here’s how:
+** 🌱Contribution Guide
+We welcome contributions! Here’s how**:
 
 Report Bugs:
 
@@ -54,7 +54,7 @@ Follow our Code Style Guide.
 
 *All contributors are expected to adhere to our [Code of Conduct]
 
-📜 License
+**📜 License**:
 MIT License © 2024 DevHelpChat.
 Made for learners, by learners.
 

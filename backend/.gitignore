@@ -1,0 +1,21 @@
+# Laravel
+/vendor/
+.env
+.env.*.local
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+storage/logs/
+bootstrap/cache/
+
+# Composer
+composer.phar
+composer.lock
+
+# PHPStorm
+.idea/

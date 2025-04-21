@@ -1,3 +1,16 @@
-variable "aws_region" {
-        default = "us-east-1" # 🚨 CHANGE REGION IF NEEDED
-}
+terraform {  
+        required_providers {  
+                aws = {  
+                        source = "hashicorp/aws"  
+                              version = "~> 5.0"  
+                }  
+        }  
+}  
+
+provider "aws" {  
+        region = "us-east-1" #  REGION 
+}  
+
+                
+        
+
